@@ -8,8 +8,6 @@ const Login = ()=>{
 
     const token = Cookies.get("jwtToken");
 
-    console.log( token );
-
     useEffect(()=>{
 
         if( token !== undefined ){
